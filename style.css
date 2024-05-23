@@ -1,0 +1,111 @@
+/* Universal styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #837D88;
+}
+
+.black-btn {
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: black;
+}
+
+.white-btn {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Header styles */
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+/* Intro styles */
+.intro {
+    padding: 50px 0;
+    height: 500px;
+    background-color: #2D2641;
+}
+
+.intro h1 {
+    font-size: 62px;
+}
+
+.intro .container {
+    display: flex;
+    color: white;
+}
+
+.intro img {
+    position: absolute;
+    right: 200px;
+}
+
+.intro .left {
+    width: 50%;
+}
+
+/* Different styles */
+.different {
+    margin-top: 140px;
+}
+
+.different .contact {
+    display: flex;
+}
+
+.different .container {
+    display: flex;
+}
+
+/* About styles */
+.about h1 {
+    font-size: 62px;
+    color: white;
+}
+
+.about a {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2D2641;
+    padding: 50px 60px;
+}
+
+/* footer styles */
+.footer {
+    margin-top: 60px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
